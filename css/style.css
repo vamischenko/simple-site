@@ -3,20 +3,31 @@
     src: url("../fonts/Tamburin_Modern.ttf");
 }
 
+@font-face {
+    font-family: "AmalteaOne";
+    src: url("../fonts/AmalteaOne.ttf");
+}
+
 body {
     background-color: aliceblue;
 }
+
 .title {
     text-align: center;
 }
+
 .menu {
     color: brown;
     font-size: 11pt;
     font-style: italic;
-    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    margin: 0;
+    /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;
+    /*убираем левый отступ, равный 40px*/
 }
-li>a, ol>a {
+
+li > a,
+ol > a {
     color: brown;
 }
 
@@ -24,20 +35,48 @@ li {
     list-style-type: none;
 }
 
-a { 
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-   } 
+a {
+    text-decoration: none;
+    /* Отменяем подчеркивание у ссылки */
+}
 
 p {
     font-family: Tamburine;
 }
 
 .podval {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #87bcf0;
-  text-align: center;
+    text-align: center;
+    font-family: AmalteaOne;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #87bcf0;
+}
+
+.nazvanie {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.niz {
+    font-family: AmalteaOne;
+}
+
+.simple {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detail {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
