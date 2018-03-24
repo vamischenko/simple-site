@@ -1,1 +1,1 @@
-# simple-site
+# Course "HTML & CSS" of GeekBrains
