@@ -1,3 +1,6 @@
+* {
+/*    margin: 5px;*/
+}
 @font-face {
     font-family: "Tamburine";
     src: url("../fonts/Tamburin_Modern.ttf");
@@ -12,10 +15,21 @@ html,
 body {
     height: auto;
     width: auto;
+/*    padding: 4px;*/
 }
 
 body {
     background-color: aliceblue;
+    min-width: 900px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    padding-bottom: 100px;
 }
 
 .title {
@@ -51,9 +65,11 @@ p {
 }
 
 .podval {
-    position: relative;
+    position: absolute;
+    height: 50px;
     bottom: 0;
     left: 0;
+    right: 0;
     width: auto;
     flex: 0 0 auto;
     margin-top: 14px;
