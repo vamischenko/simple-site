@@ -8,6 +8,12 @@
     src: url("../fonts/AmalteaOne.ttf");
 }
 
+html,
+body {
+    height: auto;
+    width: auto;
+}
+
 body {
     background-color: aliceblue;
 }
@@ -41,16 +47,18 @@ a {
 }
 
 p {
-    font-family: Tamburine;
+    font-family: Tamburine, sans-serif;
 }
 
 .podval {
-    margin-top: 14px;
-    text-align: center;
-    font-family: AmalteaOne;
-    right: 0;
+    position: relative;
     bottom: 0;
     left: 0;
+    width: auto;
+    flex: 0 0 auto;
+    margin-top: 14px;
+    text-align: center;
+    font-family: AmalteaOne, sans-serif;
     padding: 1rem;
     background-color: #87bcf0;
 }
@@ -88,8 +96,40 @@ p {
     font-style: oblique;
     background-color: cornsilk;
 }
+
 .elem {
     color: black;
     list-style-type: lower-alpha;
     text-align: justify;
+}
+
+#name,
+#surname,
+#email {
+    width: 260px;
+    height: 18px;
+}
+
+input[type="text"] {
+    color: brown;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#topic,
+#message {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topic {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#email {
+    color: saddlebrown;
+}
+.image {
+    border: 2px solid green;
 }
