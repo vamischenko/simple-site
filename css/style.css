@@ -39,6 +39,7 @@ html {
 .menu {
     color: brown;
     font-size: 11pt;
+    display: flex;
     font-style: italic;
     margin: 0;
     /*убираем верхнее и нижнее поле, равное 1em*/
@@ -53,6 +54,7 @@ ol > a {
 
 .spisok {
     list-style-type: none;
+/*    display: inline-block;*/
 }
 
 a {
