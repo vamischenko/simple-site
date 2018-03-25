@@ -1,6 +1,7 @@
 * {
-/*    margin: 5px;*/
+    /*    margin: 5px;*/
 }
+
 @font-face {
     font-family: "Tamburine";
     src: url("../fonts/Tamburin_Modern.ttf");
@@ -15,7 +16,7 @@ html,
 body {
     height: auto;
     width: auto;
-/*    padding: 4px;*/
+    /*    padding: 4px;*/
 }
 
 body {
@@ -54,7 +55,7 @@ ol > a {
 
 .spisok {
     list-style-type: none;
-/*    display: inline-block;*/
+    /*    display: inline-block;*/
 }
 
 a {
@@ -146,8 +147,10 @@ input[type="text"] {
 }
 
 #email {
+    background-color: #bff8ed;
     color: saddlebrown;
 }
+
 .image {
     border: 2px solid green;
 }
