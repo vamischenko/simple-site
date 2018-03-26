@@ -37,29 +37,37 @@
         <form action="action.php" method="post">
             <fieldset>
                 <legend>Форма связи</legend>
+                <div class="col-md-12 col-sm-12 col-xs-12">
 
-                <label for="name">Введите имя</label>
-                <input type="text" id="name" name="name" placeholder="Введите имя" required autofocus maxlength="10"><br>
+                    <label for="name">Введите имя</label>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required autofocus maxlength="10"><br>
 
-                <label>
-                    Введите фамилию
-                    <input type="text" id="surname" name="surname" placeholder="Введите фамилию"><br>
-                </label>
+                    <label>
+                        Введите фамилию
+                        <input type="text" id="surname" name="surname" placeholder="Введите фамилию"><br>
+                    </label>
+                    <br>
+                    <label>
+                       Ваша почта
+                        <input type="email" id="email" name="email" placeholder="Введите Email"><br>
+                    </label>
+                    <br>
+                    <textarea name="about" id="topic" cols="30" rows="5" placeholder="Тема"></textarea><br>
 
-                <input type="email" id="email" name="email" placeholder="Введите Email"><br>
+                    <textarea name="about" id="message" cols="60" rows="9" placeholder="Сообщение"></textarea><br>
 
-                <textarea name="about" id="topic" cols="30" rows="5" placeholder="Тема"></textarea><br>
-
-                <textarea name="about" id="message" cols="60" rows="9" placeholder="Сообщение"></textarea><br>
-
-                <label>
-                    Какой напиток Вы больше любите?<br>
-                    <input type="checkbox" name="drink[]" value="greentea" checked>Зеленый чай<br>
-                    <input type="checkbox" name="drink[]" value="blacktea">Черный чай<br>
-                    <input type="checkbox" name="drink[]" value="coffee">Кофе<br>
-                </label>
-
-                <input type="submit" value="Отправить данные">
+                    <label>
+                        Какой напиток Вы больше любите?<br>
+                        <input type="checkbox" name="drink[]" value="greentea" checked>Зеленый чай<br>
+                        <input type="checkbox" name="drink[]" value="blacktea">Черный чай<br>
+                        <input type="checkbox" name="drink[]" value="coffee">Кофе<br>
+                    </label>
+                    <br>
+                    <div class="button">
+                        <input type="submit" value="Отправить данные">
+                    </div>
+                    
+                </div>
             </fieldset>
         </form>
         <hr>
@@ -73,7 +81,7 @@
     </main>
     <footer class="podval">
         <hr>
-        <p class="niz">&#169;Все права защищены</p>
+        <p class="podval niz">&#169;Все права защищены</p>
     </footer>
 </body>
 

@@ -12,7 +12,8 @@ html,
 body {
     height: auto;
     width: auto;
-    /*    padding: 4px;*/
+    padding: 4px;
+    margin: auto;
 }
 
 body {
@@ -59,8 +60,26 @@ a {
     /* Отменяем подчеркивание у ссылки */
 }
 
+a:hover {
+    color: fuchsia;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #900060;
+    /* Цвет посещенных ссылок */
+}
+
 p {
     font-family: Tamburine, sans-serif;
+}
+
+.glav:hover {
+    color: #835b26;
+}
+
+p:first-child {
+    color: red;
 }
 
 .podval {
@@ -151,4 +170,21 @@ input[type="text"] {
 
 .image {
     border: 2px solid green;
+}
+
+hr {
+    color: black;
+}
+
+#topic:focus,
+#emal:focus,
+#message:focus {
+    background: #ffe;
+    /* Цвет фона */
+    border: 1px solid #29B0D9;
+    /* Параметры рамки */
+}
+
+.button {
+    text-align: center;
 }
