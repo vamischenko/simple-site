@@ -193,3 +193,17 @@ hr {
     font-style: oblique;
     font-size: 20px;
 }
+
+.opisanie > p:first-child {
+    color: black;
+    font-style: normal;
+}
+
+table,
+td {
+    border: 2px solid black;
+}
+
+.tname {
+    text-align: center;
+}
