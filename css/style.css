@@ -188,3 +188,8 @@ hr {
 .button {
     text-align: center;
 }
+
+.simple::first-letter {
+    font-style: oblique;
+    font-size: 20px;
+}
