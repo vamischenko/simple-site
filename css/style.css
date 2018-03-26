@@ -194,7 +194,8 @@ hr {
     font-size: 20px;
 }
 
-.opisanie > p:first-child {
+.opisanie > p:first-child,
+.adress > p:first-child {
     color: black;
     font-style: normal;
 }
