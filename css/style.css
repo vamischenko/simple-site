@@ -121,6 +121,9 @@ p:first-child {
 }
 
 .niz {
+    text-align: right;
+    top: 4px;
+    right: 22px;
     font-family: AmalteaOne;
     color: black !important;
 }
@@ -189,6 +192,7 @@ input[type="text"] {
 }
 
 hr {
+    margin: 0;
     border: none; /* Убираем границу для браузера Firefox */
     color: black; /* Цвет линии для остальных браузеров */
     background-color: black; /* Цвет линии для браузера Firefox и Opera */
