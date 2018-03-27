@@ -122,7 +122,7 @@ p:first-child {
 
 .niz {
     font-family: AmalteaOne;
-    color: black;
+    color: black !important;
 }
 
 .simple {
@@ -189,7 +189,10 @@ input[type="text"] {
 }
 
 hr {
-    color: black;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: black; /* Цвет линии для остальных браузеров */
+    background-color: black; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
 }
 
 #topic:focus,
