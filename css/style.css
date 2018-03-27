@@ -180,7 +180,7 @@ input[type="text"] {
 }
 
 #email {
-    background-color: #bff8ed;
+    background-color: antiquewhite;
     color: saddlebrown;
 }
 
@@ -194,8 +194,10 @@ hr {
 
 #topic:focus,
 #emal:focus,
-#message:focus {
-    background: #ffe;
+#message:focus,
+input:focus {
+    color: #ffe;
+    background-color: lightgray !important;
     /* Цвет фона */
     border: 1px solid #29B0D9;
     /* Параметры рамки */
