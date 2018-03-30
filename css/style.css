@@ -162,7 +162,7 @@ p:first-child {
 }
 
 .simple {
-    color: #707070;
+    color: #707070 !important;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
@@ -221,6 +221,7 @@ input[type="text"] {
 }
 
 .image {
+    margin-top: 2px;
     margin-left: 10px;
     border: 2px solid green;
 }
@@ -313,4 +314,21 @@ td {
 .product-btn-add {
     margin-left: 50%;
     margin-bottom: 5px;
+}
+
+.conta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks {
+    flex: 1 1 18%;
+    height: 180px;
+    margin: 5px;
+    border: thin solid;
+}
+
+.ymaps-2-1-56-map,
+.ymaps-2-1-56-inner-panes {
+    width: 690px !important;
 }
