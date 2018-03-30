@@ -26,6 +26,14 @@ html {
     min-height: 100%;
 }
 
+header {
+    background: #84e884;
+    padding-top: 7px;
+    height: 270px;
+    width: auto;
+    margin-top: 20px;
+}
+
 .container {
     padding-bottom: 100px;
 }
@@ -59,9 +67,27 @@ ol > a {
     color: brown;
 }
 
+ul {
+    list-style: none;
+    /*убираем маркеры списка*/
+    margin: 0;
+    /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;
+    /*убираем левый отступ, равный 40px*/
+}
+
 .spisok {
+    float: right;
+    /*    flex-direction: row-reverse;*/
+    display: flex;
     list-style-type: none;
     /*    display: inline-block;*/
+    font-size: 11pt;
+    font-style: italic;
+    margin: 0;
+    /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 5px;
+    /*убираем левый отступ, равный 40px*/
 }
 
 a {
@@ -188,15 +214,20 @@ input[type="text"] {
 }
 
 .image {
+    margin-left: 10px;
     border: 2px solid green;
 }
 
 hr {
     margin: 0;
-    border: none; /* Убираем границу для браузера Firefox */
-    color: black; /* Цвет линии для остальных браузеров */
-    background-color: black; /* Цвет линии для браузера Firefox и Opera */
-    height: 2px; /* Толщина линии */
+    border: none;
+    /* Убираем границу для браузера Firefox */
+    color: black;
+    /* Цвет линии для остальных браузеров */
+    background-color: black;
+    /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    /* Толщина линии */
 }
 
 #topic:focus,
@@ -235,4 +266,28 @@ td {
 
 .tname {
     text-align: center;
+}
+
+.submenu {
+    display: none;
+}
+
+.spisok li:hover .submenu {
+    display: block;
+    margin-top: 12px;
+    margin-left: -60px;
+}
+
+.cat {
+    margin-top: 3px;
+}
+
+.image_home {
+    margin-left: 35px;
+    border: 2px solid green;
+}
+
+.raz {
+    margin-left: auto;
+    margin-right: 0;
 }
