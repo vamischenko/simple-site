@@ -8,12 +8,17 @@
     src: url("../fonts/AmalteaOne.ttf");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html,
 body {
     height: auto;
     width: auto;
-    padding: 4px;
-    margin: auto;
+    /*    padding: 4px;*/
+    /*    margin: auto;*/
 }
 
 body {
@@ -31,7 +36,7 @@ header {
     padding-top: 7px;
     height: 270px;
     width: auto;
-    margin-top: 20px;
+    /*    margin-top: 20px;*/
 }
 
 .container {
@@ -125,11 +130,12 @@ p:first-child {
 
 .podval {
     position: absolute;
+    margin-bottom: 0px;
     height: 50px;
     bottom: 0;
     left: 0;
     right: 0;
-    width: auto;
+    width: 100%;
     flex: 0 0 auto;
     margin-top: 14px;
     text-align: center;
@@ -147,6 +153,7 @@ p:first-child {
 }
 
 .niz {
+    margin-bottom: 0px;
     text-align: right;
     top: 4px;
     right: 22px;
@@ -290,4 +297,20 @@ td {
 .raz {
     margin-left: auto;
     margin-right: 0;
+}
+
+.imgtext {
+    float: left;
+    /* Выравнивание по левому краю */
+    margin: 0 0 5px 5px;
+    /* Отступы вокруг фотографии */
+}
+
+.har {
+    padding-top: 176px;
+}
+
+.product-btn-add {
+    margin-left: 50%;
+    margin-bottom: 5px;
 }
