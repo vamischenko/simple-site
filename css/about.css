@@ -141,7 +141,8 @@ ul {
     /*убираем левый отступ, равный 40px*/
 }
 
-.simple {}
+.simple {
+}
 
 .submenu {
     display: none;
